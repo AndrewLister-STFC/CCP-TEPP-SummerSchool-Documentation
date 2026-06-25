@@ -35,16 +35,12 @@ jobs:
             - name: Render Slides
               uses: quarto-dev/quarto-actions/render@v2
               with:
-                path: Slides/slides.qmd
-            - name: Move slides to site
-              run: |
-                mkdir site
-                mv slides-html site
+                path: Slides/all_slides.qmd
             # Upload docs
             - name: Upload pages artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: site
+                  path: slides-html
 
     deploy:
         environment:

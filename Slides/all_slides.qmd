@@ -32,6 +32,6 @@ from: markdown+emoji
   Everything also applies to Python, Fortran, C++, etc.
 
 
-{{< include doxygen.qmd >}}
-{{< include sphinx.qmd >}}
-{{< include diataxis.qmd >}}
+{{< include doxygen.qmd-extra >}}
+{{< include sphinx.qmd-extra >}}
+{{< include diataxis.qmd-extra >}}
