@@ -1,0 +1,184 @@
+
+# Planning documentation
+
+## Goals!
+
+- Understand the breadth of documentation types
+- Be able to identify missing documentation in a project
+- Know how to fill the gaps in docs
+
+## Think about the audience
+
+Software documentation often needs to serve at least 2 types of user:
+
+::: {style="font-size: 80%"}
+::: {.columns}
+::: {.column}
+### Users
+
+- Why should I use it?
+- How do I get results?
+- Where do I report issues?
+:::
+::: {.column}
+### Developers
+
+- What should I work on?
+- How do I contribute to it?
+- Who do I ask for help?
+:::
+:::
+:::
+
+## Think about the audience
+
+Software documentation often needs to serve at least 2 types of user:
+
+::: {style="font-size: 80%"}
+::: {.columns}
+::: {.column}
+### Users
+
+- Overview of the software, performance results
+- Getting started, example programs, tutorials
+- Issue tracker, discussions board, contact us
+:::
+::: {.column}
+### Developers
+
+- Issue tracker labels, roadmap
+- Code structure, style guide, git workflow, community guidelines
+- Contact us, discussions board, maintainer list
+:::
+:::
+:::
+
+## Excercise 1
+
+1. Go to a few big opensource packages (e.g. <https://scipy.org/>)
+2. How easy is it to find a beginner guide?
+3. How easy is it to find contributor help?
+
+## The Diátaxis framework
+
+![The [Diátaxis](https://diataxis.fr/) compass for documentation](https://diataxis.fr/_images/diataxis.png)
+
+## Tutorials
+A tutorial is an experience that takes place under the guidance of a tutor
+
+::: {style="font-size: 80%"}
+::: {.columns}
+::: {.column}
+### User
+- User workshop
+- Lessons
+:::
+::: {.column}
+### Developer
+- How to contribute
+- Adding an extension
+:::
+:::
+:::
+
+[![](https://diataxis.fr/_images/overview-tutorials.png){fig-align="center" width=40%}](https://diataxis.fr/tutorials/)
+
+## How-to-guides
+How-to guides are directions that guide the reader through a problem or towards a result
+
+::: {style="font-size: 80%"}
+::: {.columns}
+::: {.column}
+### User
+- How to use the software
+- Example programs/workflows
+- Installing the software
+:::
+::: {.column}
+### Developer
+- Submitting/Reviewing a PR
+- Running the tests
+:::
+:::
+:::
+
+[![](https://diataxis.fr/_images/overview-how-to.png){fig-align="center" width=40%}](https://diataxis.fr/how-to-guides/)
+
+## Reference
+Reference guides are technical descriptions of the machinery and how to operate it
+
+::: {style="font-size: 80%"}
+::: {.columns}
+::: {.column}
+### User
+- Syntax
+- Function signatures and descriptions
+- API
+:::
+::: {.column}
+### Developer
+- Code comments and useful variable names
+- Git history and GitHub issues
+- Style guide
+:::
+:::
+:::
+
+[![](https://diataxis.fr/_images/overview-reference.png){fig-align="center" width=40%}](https://diataxis.fr/refrence/)
+
+## Explanation
+Explanatory guides provide context and background
+
+::: {style="font-size: 80%"}
+::: {.columns}
+::: {.column}
+### User
+- Why use it?
+- Why do some options work better?
+:::
+::: {.column}
+### Developer
+- Descriptions of the algorithms being used
+- Why choices have been made
+:::
+:::
+:::
+
+[![](https://diataxis.fr/_images/overview-explanation.png){fig-align="center" width=40%}](https://diataxis.fr/explanation/)
+
+## Excercise 2
+
+1. Go back to the opensource packages (e.g. <https://scipy.org/>)
+2. Do they cover all aspects of the framework for a user?
+3. What about a developer?
+
+## Planning our docs
+
+So far we have:
+
+- API docs with Doxygen
+- An example in Sphinx
+
+Let's plan what still needs to go in with GitHub issues!
+
+## My suggestion for priority
+
+::: {style="font-size: 80%"}
+1. API/function docs (reference)
+2. Getting started - how to install, basic examples (how-to-guides)
+3. Overview - why use the software, project structure (explanation)
+4. Contributor guidelines, style guide (explanation,reference)
+5. ...
+:::
+
+For "complete" documentation, try to cover the whole of the framework!
+
+## Final message
+
+:x: Write documentation only for experienced users
+
+:heavy_check_mark: Try to offer a variety of documentation
+
+:x: Spend all your effort writing perfect docs
+
+:heavy_check_mark: Continuously improve the documentation

@@ -1,0 +1,37 @@
+---
+title: "Documenting software"
+subtitle: "CCP-TEPP Docathon 2026"
+author: "Andrew Lister"
+institute: "UKRI - STFC"
+format:
+  revealjs:
+    navigation-mode: vertical
+    theme: serif
+toc: true
+toc-depth: 1
+toc-title: Outline
+
+transition: fade
+
+from: markdown+emoji
+---
+
+# Preamble
+
+## Aim of documentation
+
+- Understanding what the code is doing
+- Give people the confidence to use the software
+- Encourage contribution
+- Reduce user queries
+
+## Disclaimers
+
+- What counts as "clear documentation" is subjective
+- These sessions will focus on C.
+  Everything also applies to Python, Fortran, C++, etc.
+
+
+{{< include doxygen.qmd >}}
+{{< include sphinx.qmd >}}
+{{< include diataxis.qmd >}}
